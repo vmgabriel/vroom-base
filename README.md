@@ -29,6 +29,8 @@ This have several routing engines.
 
 The Demo server is configured here as way of test
 
+### VRoom Docker Image
+This include all dependencies and projects needed to successfully run an instance of vroom.
 
 ## Members
 - **Gabriel Vargas Monroy**(vmgabriel)

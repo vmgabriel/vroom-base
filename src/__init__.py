@@ -3,4 +3,7 @@ Package of App
 """
 
 # Modules
-from src.app import run
+from src import app
+
+
+run = app.run
