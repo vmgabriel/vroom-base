@@ -1,7 +1,7 @@
 ENV=development
 
 
-all: clean install load run
+all: clean install load
 dev: test lint
 
 test:
@@ -13,7 +13,6 @@ lint:
 
 
 run:
-	# docker-compose -f compose/local.yml up -d
 	python3 manage.py
 
 
@@ -26,7 +25,8 @@ clean:
 	rm -Rf .pytest_cache
 	rm -Rf __pycache__
 	rm -Rf */*/__pycache__
-	find . -type f -name ‘*.pyc’ -delete
+	find tests -type f -name "*-test.json" -delete
+	find . -type f -name "*.pyc" -delete
 
 
 install-dev:

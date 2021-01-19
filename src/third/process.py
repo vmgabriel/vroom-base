@@ -8,8 +8,8 @@ from src.config import configuration as config
 from src.utils import jsonfile_to_dict, api_request, dict_to_file
 
 # Constants
-file_path_in = 'src/first/in.json'
-out_file = 'src/first/out.json'
+file_path_in = 'src/third/in.json'
+out_file = 'src/third/out.json'
 
 
 def run():
