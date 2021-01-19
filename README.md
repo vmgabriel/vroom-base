@@ -24,6 +24,18 @@ This have several routing engines.
 - OSRM
 - OpenRoutesService
 
+Things:
+- The expected order for all coordinates arrays is [lon, lat]
+- all timings are in seconds
+- all distances are in meters
+- a *time_window* object is a pair of timestamps in the form [start, end]
+- deprecated keys are crossed out
+- *cost* values in output are the one used in the optimization objective
+- a "task" is either a job, a pickup or a delivery
+
+Solving Mode
+Default VRP: The default solgin mode takes as input the description of a vehicle routing problem and outputs a set of routes matching all constraints
+
 ### VRoom Demo Server
 [http://solver.vroom-project.org](http://solver.vroom-project.org "Demo Server for vroom")
 
@@ -34,7 +46,6 @@ This include all dependencies and projects needed to successfully run an instanc
 
 ## Members
 - **Gabriel Vargas Monroy**(vmgabriel)
-
 
 ## Initialize
 For load test:

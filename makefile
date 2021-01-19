@@ -13,7 +13,7 @@ lint:
 
 
 run:
-# docker-compose -f compose/local.yml up -d
+	# docker-compose -f compose/local.yml up -d
 	python3 manage.py
 
 
