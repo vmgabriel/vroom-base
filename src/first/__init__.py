@@ -2,4 +2,8 @@
 Package of First Example
 """
 
-# Libraries
+# Modules
+from src.first import process
+
+
+solve = process.run
