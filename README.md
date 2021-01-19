@@ -1,4 +1,5 @@
 # VRoom Routing - Base Project
+[![Built with Spacemacs](https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg)](http://spacemacs.org)
 
 ## Description
 Using [vroom](https://github.com/VROOM-Project/vroom "vroom") Optimization Machine, for use of geo-referenzing.

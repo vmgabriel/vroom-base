@@ -5,7 +5,7 @@ all: clean install load run
 dev: test lint
 
 test:
-	pytest -v tests/
+	python -m pytest tests/ -v
 
 
 lint:
